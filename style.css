@@ -99,10 +99,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items:flex-end;
+  background-color: #E5E7EB;
+  padding: 50px 400px;
 }
 
-.quote .first {
+.quote .text {
   align-self: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0px;
+}
+
+.quote .attribution {
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0px;
 }
 
 .cta {
