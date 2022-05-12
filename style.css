@@ -66,11 +66,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
+}
+
+.infobox h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937
 }
 
 .boxes {
   display: flex;
   gap: 70px;
+}
+
+.box {
+  width: 100px;
+}
+
+.box p {
+  color: grey;
 }
 
 .ph {
